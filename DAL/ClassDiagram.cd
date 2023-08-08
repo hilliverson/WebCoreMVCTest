@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.CustomException.DBSqlException" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CustomException\DBSqlException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.ImplementLibrary.DapperBaseRepository">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementLibrary\DapperBaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.ImplementLibrary.DapperUnitOfWork" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAASAEAAAAAAIAQAAAAAAAAAgAAAAgAAAAAAAAAABAA=</HashCode>
+      <FileName>ImplementLibrary\DapperUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IDBConFactory" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.542" Collapsed="true" />
+  </Class>
+  <Class Name="DAL.ImplementLibrary.DBConFactory" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAABg=</HashCode>
+      <FileName>ImplementLibrary\DBConFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DBSetting" />
+      <Property Name="DBProvider" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DAL.ImplementLibrary.DBSetting" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ImplementLibrary\DBSetting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DAL.InterfaceLibrary.IDBConFactory">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>InterfaceLibrary\IDBConFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAL.InterfaceLibrary.IUnitOfWork">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterfaceLibrary\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DAL.ImplementLibrary.DBProvider" Collapsed="true">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>ImplementLibrary\DBSetting.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>
